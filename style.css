@@ -1,0 +1,120 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.blog-form__row {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.blog-form__col {
+    width: 100%;
+}
+
+.blog-form__title {
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.symbol__count {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #000;
+}
+
+.blog-form__error {
+    font-size: 25px;
+    color: #FF0000;
+}
+
+.title {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.post__input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 500px;
+    height: 60px;
+    border: 1px solid #000;
+    font-size: 32px;
+}
+
+.post-text__input {
+    font-family: inherit;
+    height: 250px;
+    resize: none;
+}
+
+.post__input::placeholder {
+    font-size: 32px;
+    opacity: .7;
+}
+
+.post__input:focus {
+    outline: none;
+}
+
+.new-post__btn {
+    width: 500px;
+    height: 60px;
+
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #0094FF;
+
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    color: #fff;
+    transition: opacity .2s ease;
+}
+
+.new-post__btn:hover {
+    opacity: .6;
+}
+
+.new-post__btn:disabled {
+    opacity: .5;
+}
+
+.posts {
+    max-width: 500px;
+}
+
+.posts > span {
+    font-size: 32px;
+    color: #979797;
+}
+
+.posts__item {
+    margin-bottom: 50px;
+}
+
+.posts__date {
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #0094FF;
+}
+
+.post {
+    margin-bottom: 50px;
+}
+
+.post__title {
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.post__text {
+    font-size: 25px;
+}

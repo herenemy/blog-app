@@ -1,0 +1,39 @@
+@media (max-width: 899px) {
+    .blog-form__title {
+        font-size: 35px;
+    }
+
+    .posts > span {
+        font-size: 27px;
+    }
+
+    .post__input {
+        width: 450px;
+        font-size: 27px;
+    }
+
+    .new-post__btn {
+        width: 450px;
+        font-size: 27px;
+    }
+
+    .blog-form__error {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 769px) {
+    .blog-form__row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .blog-form__col {
+        width: 50%;
+    }
+
+    .post__input {
+        text-align: center;
+    }
+}
